@@ -64,7 +64,14 @@ body {
 .joinChatContainer button:hover {
   background: #2e7d32;
 }
+#you .message-meta {
+  justify-content: flex-start;
+  margin-left: 5px;
+}
 
+#other {
+  justify-content: flex-end;
+}
 /* Chat Window Styling */
 .chat-window {
   width: 350px;
